@@ -74,13 +74,24 @@ A full-stack web application designed to handle and manage user complaints effic
 
 ## 📸 Screenshots
 
-*(Add your screenshots here by replacing the placeholder links)*
+
+### Login Page
+<img width="1365" height="690" alt="login" src="https://github.com/user-attachments/assets/f10d78ae-fff1-4d88-b22a-76e45b54a4cf" />
+
+
+### Registration Page
+<img width="1366" height="687" alt="registration" src="https://github.com/user-attachments/assets/97b8e375-1be1-48b3-85e6-1ea90d876a3c" />
+
 
 ### User Dashboard
-![User Dashboard](path/to/user-dashboard-screenshot.png)
+<img width="1366" height="690" alt="userdashboard1" src="https://github.com/user-attachments/assets/30106c28-8615-4a71-93c2-e16f4d04ba9f" />
+
+<img width="1366" height="689" alt="userdashboard2" src="https://github.com/user-attachments/assets/4f5ef129-bc20-4c8b-a073-723c82e4d2b3" />
+
 
 ### Admin Dashboard
-![Admin Dashboard](path/to/admin-dashboard-screenshot.png)
+<img width="1366" height="691" alt="admin" src="https://github.com/user-attachments/assets/d3b5b3fc-4e04-4e59-84e8-3ca1a087ec4d" />
 
-### Submit Complaint Form
-![Submit Complaint](path/to/submit-complaint-screenshot.png)
+
+### Complaint Form
+<img width="1350" height="693" alt="complaintform" src="https://github.com/user-attachments/assets/5d3cb7ed-bb67-42bf-a384-e50e99d626e3" />
