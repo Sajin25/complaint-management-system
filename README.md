@@ -56,6 +56,8 @@ A full-stack web application designed to handle and manage user complaints effic
    ```
    *The frontend should start running, typically accessible at http://localhost:5173.*
 
+   (*if you are admin, use admin@admin.com as gmail and admin123 as password*)
+
 ## 🧠 Challenges Faced
 
 - **Connecting Frontend and Backend (CORS):** Because the React frontend runs on port `5173` and the Spring Boot backend runs on port `8080`, the browser blocked them from talking to each other at first due to security rules. I fixed this by setting up a custom `CorsConfig.java` file in the backend to safely allow communication between both sides.
