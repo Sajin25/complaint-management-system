@@ -56,11 +56,12 @@ A full-stack web application designed to handle and manage user complaints effic
    ```
    *The frontend should start running, typically accessible at http://localhost:5173.*
 
-## 🚧 Challenges Faced
+## 🧠 Challenges Faced
 
-*   **Status Update Synchronization**: One of the main challenges was ensuring that the API communication between the React frontend and the Spring Boot backend correctly handled the status updates in the Admin Dashboard. Managing the transition of complaints from "Pending" to "In Progress" or "Resolved" and immediately reflecting these changes in the UI required careful state management and asynchronous data fetching.
-*   **CORS Issues**: Configuring Cross-Origin Resource Sharing (CORS) correctly so the Vite frontend could securely talk to the Spring Boot backend on different ports.
-*   **Role-Based Routing**: Ensuring that users and admins were restricted to their specific dashboards and preventing unauthorized access to administrative features.
+- **Connecting Frontend and Backend (CORS):** Because the React frontend runs on port `5173` and the Spring Boot backend runs on port `8080`, the browser blocked them from talking to each other at first due to security rules. I fixed this by setting up a custom `CorsConfig.java` file in the backend to safely allow communication between both sides.
+- **Updating the UI Instantly:** When an admin changes a complaint status from "Pending" to "Resolved", the change needs to show up immediately on the screen. It was challenging to handle the asynchronous API call and update the frontend state smoothly without forcing a frustrating full-page refresh.
+- **Protecting Dashboard Views:** Making sure regular users cannot view or access the Admin Dashboard. I had to implement conditional routing in React to check a user's role before letting them access specific dashboard pages.
+- **Designing with Standard CSS:** Instead of using a shortcut layout framework, I built the entire interface using native CSS flexbox and media queries. Making complex data tables and dashboards look neat and responsive on small phone screens took careful layout planning.
 
 ## 💡 What I Learned
 
